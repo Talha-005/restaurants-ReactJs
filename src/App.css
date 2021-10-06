@@ -1,0 +1,74 @@
+::selection {
+  color: white;
+  background: #9d9fa1;;
+}
+.headings{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav-items{
+  color:rgba(0,0,0,.55);
+  text-decoration: none;
+}
+.nav-items:hover{
+  color: rgba(0, 0, 0, 0.918);
+}
+
+.span{
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgba(66, 64, 64, 0.918);
+}
+.span:hover{
+  color: rgba(0, 0, 0, 0.918);
+  font-size: 17px;
+}
+@media screen and (min-width: 991px){
+  .navbar-nav{
+    margin-left: 11rem;
+  }
+  .navbar-nav a:not(:first-child){
+    margin-left: 1rem;
+  }
+  
+}

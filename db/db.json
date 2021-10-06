@@ -1,0 +1,40 @@
+{
+  "restaurants": [
+    {
+      "name": "Monal ",
+      "address": "Lahore",
+      "rating": "5",
+      "id": 1
+    },
+    {
+      "name": "KFC ",
+      "address": "Lahore",
+      "rating": "4.8",
+      "id": 2
+    },
+    {
+      "name": "Yasir Broast",
+      "address": "Lahore",
+      "rating": "4.4",
+      "id": 3
+    },
+    {
+      "name": "PC",
+      "address": "Mall Road, Lahore",
+      "rating": "5.0",
+      "id": 4
+    }
+  ],
+  "login": [
+    {
+      "name": "talha",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": null,
+      "password": null,
+      "id": 2
+    }
+  ]
+}
